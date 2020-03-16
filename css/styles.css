@@ -29,7 +29,7 @@ p {
 
 /* Common font colot style */
 
-#title,#testimonials {
+#title,#testimonials,#Location {
   color: #fff;
   /* background-image: url("https://www.intellectyx.com/wp-content/themes/intellectyx/imgs/banner_1.jpg");*/
 }
@@ -52,6 +52,12 @@ p {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
+}
+
+#Location{
+  font-family: "Ubuntu";
+  font-size: 0.8rem;
+  /* font-weight: bold; */
 }
 
 .nav-item {
