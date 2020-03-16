@@ -17,7 +17,7 @@ function processRequest(e) {
 
     //Live Weather data
 
-    var url = "http://api.openweathermap.org/data/2.5/weather?q=" + response.city + "&appid=0688d3ec2934ba3120cc1cd777a255c3&units=metric";
+    var url = "https://api.openweathermap.org/data/2.5/weather?q=" + response.city + "&appid=0688d3ec2934ba3120cc1cd777a255c3&units=metric";
     wdata.open('GET', url, true);
 
     wdata.send();
