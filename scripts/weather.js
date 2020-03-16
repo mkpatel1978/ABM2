@@ -1,5 +1,3 @@
-// This script pulls the location and Temprature based on location user is browsing.
-
 var xhr = new XMLHttpRequest();
 var wdata = new XMLHttpRequest();
 var city;
