@@ -32,6 +32,6 @@ function processWeather(e) {
   if (wdata.readyState == 4 && wdata.status == 200) {
     // time to partay!!!
     var response = JSON.parse(wdata.responseText);
-    document.getElementById("Location").innerHTML = city+": " + response.main.temp + " ℃" + '<img src="http://openweathermap.org/img/wn/'+response.weather[0].icon+'@2x.png" alt="">' ;
+    document.getElementById("Location").innerHTML = city+": " + response.main.temp + " ℃" + '<img src="https://openweathermap.org/img/wn/'+response.weather[0].icon+'@2x.png" alt="">' ;
   }
 }
